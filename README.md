@@ -1,3 +1,45 @@
+#    Guía de Inicio para Desarrolladores:
+
+## 🚦 Pasos para Contribuir al Proyecto
+
+1. **Clona el repositorio:**
+  ```bash
+  git clone https://github.com/DevCoreGroup/Landing-Page-DevCore-Group.git
+  ```
+
+2. **Accede a la carpeta e instala las dependencias:**
+  ```bash
+  cd Landing-Page-DevCore-Group
+  npm install
+  ```
+
+3. **Sincroniza con la última versión de `main` (¡siempre antes de empezar!):**
+  ```bash
+  git checkout main
+  git pull origin main
+  ```
+
+4. **Crea una nueva rama para tu tarea asignada:**
+  ```bash
+  git checkout -b feature/2.1/crear-componente-button
+  ```
+
+5. **Desarrolla el componente en el archivo correspondiente**  
+  Ejemplo: `src/components/ui/Button.tsx`  
+  Sigue la descripción y los criterios de aceptación definidos en ClickUp.
+
+6. **Realiza commits pequeños y descriptivos conforme avances.**
+
+7. **Sube tu rama a GitHub:**
+  ```bash
+  git push -u origin nombre-de-la-rama
+  ```
+
+8. **Crea una Pull Request (PR) dirigida a `main`.**  
+  En la descripción, enlaza la tarea de ClickUp y asígnale al revisor correspondiente.
+
+---
+
 # 🏗️ Arquitectura del Proyecto - DevCore Group Landing Page
 
 ## 📁 Estructura de Carpetas
